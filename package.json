@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "dropbox": "^4.0.5",
+    "store": "^2.0.12",
+    "uuid": "^3.2.1",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.0.18",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.3",
+    "compression-webpack-plugin": "^1.1.11",
+    "http-server": "^0.11.1",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack-bundle-analyzer": "^2.13.1"
+  },
+  "name": "dynanote",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve",
+    "start": "http-server dist -g"
+  },
+  "version": "0.1.0"
+}
