@@ -1,0 +1,9 @@
+git checkout master
+npm run build
+git branch -D gh-pages
+git checkout --orphan gh-pages
+git reset --hard
+mv dist/* ./ && rm -rf dist
+git add index.html* note-skel.html* css fonts img js
+git commit -m "Site"
+git push --set-upstream origin gh-pages -f

@@ -10,7 +10,7 @@ const silent = () => {};
 
 const fetchSkeleton = async () => {
   try {
-    const result = await fetch('/note-skel.html');
+    const result = await fetch('/dynanote/note-skel.html');
     return result.text();
   } catch (err) {
     return '<note>';

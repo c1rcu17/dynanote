@@ -55,6 +55,7 @@ const configureNotesBundle = (config) => {
 };
 
 module.exports = {
+  publicPath: '/dynanote',
   lintOnSave: false,
   chainWebpack: (config) => {
     const isProd = config.get('mode') === 'production';
